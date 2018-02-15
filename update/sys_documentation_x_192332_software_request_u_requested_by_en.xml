@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_requested_by" label="Requested by" language="en" table="x_192332_software_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_requested_by</element>
+            <help/>
+            <hint/>
+            <label>Requested by</label>
+            <language>en</language>
+            <name>x_192332_software_request</name>
+            <plural>Requested by</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-15 18:58:19</sys_created_on>
+            <sys_id>885d7fa9db501300bc6655d0cf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested by</sys_name>
+            <sys_package display_value="SoftwareRequestApp" source="x_192332_software">a753b365db501300bc6655d0cf9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SoftwareRequestApp">a753b365db501300bc6655d0cf9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_192332_software_request_u_requested_by_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-15 18:58:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

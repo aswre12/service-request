@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="b28dbfa9db501300bc6655d0cf961928" sys_domain="global" table="x_192332_software_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-15 18:59:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>728d33e9db501300bc6655d0cf961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_192332_software_request" name="x_192332_software_request" sys_domain="global" view="Default view">b28dbfa9db501300bc6655d0cf961928</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_192332_software_request" sys_domain="global" view="Default view">5db73329db501300bc6655d0cf96194c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-15 18:59:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-15 19:01:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>131e37e9db501300bc6655d0cf9619db</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_192332_software_request" name="x_192332_software_request" sys_domain="global" view="Default view">b28dbfa9db501300bc6655d0cf961928</sys_ui_form>
+            <sys_ui_section caption="Software Information" display_value="Software Information" name="x_192332_software_request" sys_domain="global" view="Default view">9f1ef3e9db501300bc6655d0cf961927</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-15 19:23:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_192332_software_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-15 18:59:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b28dbfa9db501300bc6655d0cf961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_192332_software_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SoftwareRequestApp" source="x_192332_software">a753b365db501300bc6655d0cf9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SoftwareRequestApp">a753b365db501300bc6655d0cf9619be</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b28dbfa9db501300bc6655d0cf961928</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-15 18:59:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

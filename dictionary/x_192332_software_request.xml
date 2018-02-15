@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Software Request" max_length="40" name="x_192332_software_request" type="collection">
+        <element label="Requested by" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Software Description" max_length="2500" name="u_software_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Software Name" mandatory="true" max_length="40" name="u_software_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Software Vendor" max_length="40" name="u_software_vendor" type="string"/>
+    </element>
+</database>
