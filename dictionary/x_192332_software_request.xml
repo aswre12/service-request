@@ -4,7 +4,24 @@
         <element label="Requested by" max_length="32" name="u_requested_by" reference="sys_user" type="reference"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Software Description" max_length="2500" name="u_software_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Software Name" mandatory="true" max_length="40" name="u_software_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="so" label="Software Name" mandatory="true" max_length="40" name="u_software_name" type="string">
+            <choice>
+                <element label="-- Select One --" sequence="0" value="so"/>
+                <element label="Acrobat Reader DC" sequence="1" value="ard"/>
+                <element label="CeridianViewer" sequence="2" value="cv"/>
+                <element label="CIC Business Manager" sequence="3" value="cbm"/>
+                <element label="Microsoft Office" sequence="4" value="mo"/>
+                <element label="SQL Server Management Studios" sequence="5" value="ssms"/>
+                <element label="TeamViewer" sequence="6" value="tv"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Software Needed" max_length="40" name="u_software_needed" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Software Vendor" max_length="40" name="u_software_vendor" type="string"/>
     </element>
 </database>
